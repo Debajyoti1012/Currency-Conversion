@@ -1,6 +1,4 @@
 const BASE_URL =
-  // "https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_ELOTeb3FJDpwWHMx2l8xnhcs0BY0x6SBEMamkLtJ";
-//  "https://v6.exchangerate-api.com/v6/88fa1d892881707f18d435e4 ";
 "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies";
 const dropdowns = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
@@ -59,4 +57,5 @@ btn.addEventListener("click", (evt) => {
 
 window.addEventListener("load", () => {
   updateExchangeRate();
+
 });
